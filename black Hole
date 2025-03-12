@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {SafeAreaView, ScrollView, StatusBar, StyleSheet, Text, useColorScheme, View} from 'react-native';
 import {ERNHoleViewTimingFunction, RNHoleView} from 'react-native-hole-view';
+import Colors from 'react-native/Libraries/NewAppScreen/components/Colors'; // Ensure correct import for Colors
 
 const animationSettings = {
   timingFunction: ERNHoleViewTimingFunction.EASE_IN_OUT,
@@ -38,11 +39,3 @@ const styles = StyleSheet.create({
 });
 
 export default App;
-
-function Animation( elem, properties, options ) {
-  // Animation logic...
-}
-
-function Animation( elem, properties, options ) {
-  // Animation logic...
-}
