@@ -1,0 +1,42 @@
+{
+  "name": "Aiko's Path to the Shadow",
+  "type": "dark",
+  "colors": {
+    "background": "#1a1a2e",          // Midnight sky background
+    "text": "#e4e4e4",                // Soft moonlit text
+    "comment": "#808080",             // Quiet whispers in the shadows
+    "keyword": "#f5a623",             // Flickers of determination (Aiko's spark)
+    "string": "#3cba92",              // Hints of the forest's vitality
+    "variable": "#a291d1",            // Echo of the ancient scrolls
+    "constant": "#e74c3c",            // Strikes of kunai against tree bark
+    "function": "#f39c12",            // Burning energy of her ninja training
+    "punctuation": "#ffffff",         // Moonlit clarity
+    "tag": "#7ed6df",                 // Whispers of the unknown (shadowy figure)
+    "link": "#3498db",                // Path to discovery
+    "activeLine": "#2c3e50",          // Subtle focus in training and growth
+    "selectionBackground": "#34495e", // Soft focus while reading scrolls
+    "cursor": "#f1c40f"               // Glimmer of Aiko's bright future
+  },
+  "tokenColors": [
+    {
+      "scope": "comment",
+      "settings": {
+        "foreground": "#808080",      // Shadowed whispers
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["string", "constant"],
+      "settings": {
+        "foreground": "#e74c3c",      // Kunai & determination
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "variable",
+      "settings": {
+        "foreground": "#a291d1"       // Mystery from ancient scrolls
+      }
+    }
+  ]
+}
