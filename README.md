@@ -75,5 +75,5 @@
 
 <br/>
     
-![snake gif](https://github.com/Ninja-Wolf-Code/Ninja-Wolf-Code/blob/output/github-snake-dark.svg)
+![snake gif](https://github.com/Ninja-Wolf-Code/Ninja-Wolf-Code/blob/output/github-snake.svg)
 
